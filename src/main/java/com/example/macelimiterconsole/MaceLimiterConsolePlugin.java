@@ -147,7 +147,7 @@ public final class MaceLimiterConsolePlugin extends JavaPlugin {
         return new String(Base64.getDecoder().decode(s), StandardCharsets.UTF_8);
     }
     private String jsonField(String json, String field) {
-        String key = """ + field + "":"";
+        String key = "\"" + field + "\":\"";
         int start = json.indexOf(key);
         if (start < 0) return null;
         start += key.length();
