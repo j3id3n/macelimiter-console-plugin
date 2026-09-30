@@ -1,0 +1,18 @@
+name: MaceLimiterConsole
+main: com.example.macelimiterconsole.MaceLimiterConsolePlugin
+version: "1.0.0"
+api-version: "1.21"
+description: MaceLimiter console-server bridge with /runcommand
+authors: [MaceLimiter]
+commands:
+  runcommand:
+    description: Run a Minecraft console command on the active MaceLimiter target server
+    usage: /runcommand <command>
+    permission: macelimiterconsole.runcommand
+  targetstatus:
+    description: Show the active MaceLimiter target
+    usage: /targetstatus
+permissions:
+  macelimiterconsole.runcommand:
+    description: Allows remote Minecraft console commands through MaceLimiter
+    default: op
