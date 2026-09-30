@@ -1,7 +1,7 @@
 name: MaceLimiterConsole
 main: com.example.macelimiterconsole.MaceLimiterConsolePlugin
-version: "1.0.0"
-api-version: "1.21"
+version: "1.0.2"
+api-version: "26.2"
 description: MaceLimiter console-server bridge with /runcommand
 authors: [MaceLimiter]
 commands:
